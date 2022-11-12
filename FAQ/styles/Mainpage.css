@@ -1,0 +1,142 @@
+
+body{
+margin: 0;
+padding: 0;
+}
+
+  .main_nav {
+    display: inline-block;
+    text-align: center;
+    
+  }
+  
+  .main_nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 17px 16px;
+    text-decoration: none;
+    height: 60px;
+  }
+  
+  .main_nav a:hover {
+    background-color: #111;
+  }
+
+  .UL1{
+    width: 100vw;
+    height: 60px;
+    font-size: 17px;
+    display: inline-block;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    outline: 0;
+  }
+
+  .searchbar{
+   background-color: rgb(40, 33, 33);
+   margin-left: 200px;
+   margin-bottom: 30px;
+   width: 13vw;
+   font-style: oblique;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  height: 29px;
+ border: 1px;
+ outline: 0;
+  
+  }
+  ::placeholder {
+    color: whitesmoke;
+    opacity: 1; /* Firefox */
+  }
+  .searchbar:hover{
+    opacity: 0.8;
+  }
+
+  .signinbutton{
+    background-color: rgb(71, 71, 234);
+    width: 100px;
+    height: 30px;
+    margin-left: 50px;
+    font-weight: bold;
+    color: white;
+    border: 1px blue solid;
+  }
+
+
+  
+
+  .signinbutton:hover{
+   opacity: 0.8;
+    cursor: pointer;
+  }
+
+.signupbutton{
+    background-color: grey;
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    border: 1px gray solid;
+}
+
+.signupbutton:hover{
+   opacity: 0.8;
+    cursor: pointer;
+}
+ .navimg{
+    position: absolute;
+    width: 100vw;
+    top: 60px;
+    background-image:url(/img/questions1.jpg);
+    height: 199px;
+ }
+  
+ .quote1{
+    font-size: 18px;
+    color: white;
+    padding-left: 150px;
+    font-family: sans-serif;
+    font-weight: bold;
+ }
+ .quote2{
+    font-size: 15px;
+    color: white;
+    padding-left: 150px;
+    font-family: sans-serif;
+
+ }
+
+ .create_account{
+    float: right;
+    margin-right: 100px;
+    background-color: rgb(71, 71, 234);
+    color: white;
+    height: 30px;
+    width: 200px;
+    font-weight: bold;
+    border: 1px blue solid;
+ }
+
+ .create_account:hover{
+    cursor: pointer;
+    opacity: 0.8;
+ }
+
+ .container{
+  display: grid;
+grid-template-columns: 30% 30%;
+ }
+ .list{
+  background-color: #2B86C5;
+  text-align: left;
+}
+.UL1{
+  
+}
